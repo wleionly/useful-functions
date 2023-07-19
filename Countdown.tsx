@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import styles from './index.less';
+import styles from './Countdown.less';
 
 export default function Countdown(props) {
   const { endTime, status } = props || {};
